@@ -40,7 +40,6 @@ char *my_append_char(char *str, char c)
     return (dest);
 }
 
-
 char *get_next_line(int fd)
 {
     static char buffer[READ_SIZE];
